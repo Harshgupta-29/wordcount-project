@@ -1,0 +1,5 @@
+<h1><label for="text">Count The Words</label></h1>
+<form action="{% url 'count' %}">
+    <textarea cols="100" rows="20" name="fulltext" id="text" placeholder="Enter Your Text"></textarea>
+    <br> <button>count!</button><a href="{% url 'about' %}"> About us</a> </br>
+</form>
